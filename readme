@@ -1,0 +1,97 @@
+# Collection Manipulator – Student Data Organizer
+
+## Description
+A Python console application that manages student records using List, Tuple, Set, and Dictionary. Demonstrates string formatting, mutability/immutability, type casting, and the `del` keyword.
+
+## Features
+- Add, display, update, delete students.
+- Store ID and DOB as an immutable tuple.
+- Maintain a set of unique subjects.
+- Use a dictionary for fast lookup by student ID.
+- Menu-driven interface with input validation.
+
+## Assumptions
+- Student ID is an integer.
+- Date of Birth is a string in YYYY-MM-DD format.
+- Subjects are entered as comma-separated values.
+- Data is not persisted to disk.
+
+## How to Run
+1. Ensure Python 3.x is installed.
+2. Clone the repository.
+3. Run: `python student_data_organizer.py`
+
+## Sample Output
+============================================================
+Welcome to the Student Data Organizer!
+============================================================
+This program manages student records using lists, tuples,
+sets, and dictionaries. You can add, display, update, delete
+students and view all unique subjects offered.
+
+==================================================
+Select an option:
+1. Add Student
+2. Display All Students
+3. Update Student Information
+4. Delete Student
+5. Display Subjects Offered
+6. Exit
+==================================================
+Enter your choice: 1
+
+--- Add Student ---
+Student ID: 101
+Name: Alice
+Age: 20
+Grade: B+
+Date of Birth (YYYY-MM-DD): 2002-05-14
+Subjects (comma-separated): Math, Science, English
+
+Student added successfully! (ID: 101)
+
+==================================================
+Select an option:
+1. Add Student
+2. Display All Students
+3. Update Student Information
+4. Delete Student
+5. Display Subjects Offered
+6. Exit
+==================================================
+Enter your choice: 2
+
+--- All Students ---
+Student ID: 101 | Name: Alice | Age: 20 | Grade: B+ | Subjects: Math, Science, English
+
+==================================================
+Select an option:
+1. Add Student
+2. Display All Students
+3. Update Student Information
+4. Delete Student
+5. Display Subjects Offered
+6. Exit
+==================================================
+Enter your choice: 5
+
+--- Unique Subjects Offered ---
+- English
+- Math
+- Science
+
+==================================================
+Select an option:
+1. Add Student
+2. Display All Students
+3. Update Student Information
+4. Delete Student
+5. Display Subjects Offered
+6. Exit
+==================================================
+Enter your choice: 6
+
+Thank you for using the Student Data Organizer. Goodbye!
+
+## Author
+Rahi Sarvaiya
